@@ -21,7 +21,9 @@ function HomeServices() {
         <Grid item xs={12} md={4}>
           <Card sx={{ minWidth: 275 }} style={{ boxShadow: "none" }}>
             <Paper elevation={0} style={{ textAlign: "center" }}>
-              <Image src={img} />
+              <Image src={img}
+
+              />
               <Typography>Fluride TreatMent</Typography>
               <Typography>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda non, eligendi perferendis consequatur voluptatum debitis ex nulla illum fuga
@@ -33,7 +35,8 @@ function HomeServices() {
         <Grid item xs={12} md={4}>
           <Card sx={{ minWidth: 275 }} style={{ boxShadow: "none" }}>
             <Paper elevation={0} style={{ textAlign: "center" }}>
-              <Image src={img1} />
+              <Image src={img1}
+              />
               <Typography>Cavity TreatMent</Typography>
               <Typography>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda non, eligendi perferendis consequatur voluptatum debitis ex nulla illum fuga
@@ -45,7 +48,8 @@ function HomeServices() {
         <Grid item xs={12} md={4}>
           <Card sx={{ minWidth: 275 }} style={{ boxShadow: "none" }}>
             <Paper elevation={0} style={{ textAlign: "center" }}>
-              <Image src={img2} />
+              <Image src={img2}
+              />
               <Typography>Whitening TreatMent</Typography>
               <Typography>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda non, eligendi perferendis consequatur voluptatum debitis ex nulla illum fuga

@@ -1,9 +1,10 @@
 import React from "react";
 import BannerBottom from "../components/Home/BannerBottom";
-import HomePart4 from "../components/Home/HomePart4";
-import HomePart5 from "../components/Home/HomePart5";
+import HomePartFour from "../components/Home/HomePartFour";
+import HomePartFive from "../components/Home/HomePartFive";
 import HomeServices from "../components/Home/HomeServices";
 import OurDoctors from "../components/Home/OurDoctors";
+import Testimonial from "../components/Home/Testimonial";
 import TopBanner from "../components/Home/TopBanner";
 
 function index() {
@@ -12,8 +13,9 @@ function index() {
       <TopBanner />
       <BannerBottom />
       <HomeServices />
-      <HomePart4 />
-      <HomePart5 />
+      <HomePartFour />
+      <HomePartFive />
+      <Testimonial />
       <OurDoctors />
     </div>
   );

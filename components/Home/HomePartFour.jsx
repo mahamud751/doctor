@@ -2,7 +2,7 @@ import { Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import treatment from "../../public/images/treatment.png";
-function HomePart4() {
+function HomePartFour() {
   return (
     <Container>
       <Grid container spacing={3}>
@@ -21,4 +21,4 @@ function HomePart4() {
   );
 }
 
-export default HomePart4;
+export default HomePartFour;

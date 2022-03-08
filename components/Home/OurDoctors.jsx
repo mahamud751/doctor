@@ -1,6 +1,6 @@
 import { Phone } from "@mui/icons-material";
 import { Container, Grid, Typography } from "@mui/material";
-import Image from "next/Image";
+import Image from 'next/image'
 import React from "react";
 import { default as img, default as img2, default as img3 } from "../../public/images/doctor-small.png";
 function OurDoctors() {

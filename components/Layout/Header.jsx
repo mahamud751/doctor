@@ -5,6 +5,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
+import Link from "next/link";
 import React from "react";
 
 function Header() {
@@ -16,9 +17,18 @@ function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            Doctors Portal
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Link href={'/'} passHref  >
+            <Typography sx={{ p: 3 }}>Home</Typography>
+          </Link>
+          <Link href={'/appointments'} passHref  >
+            <Typography sx={{ p: 3 }}>Appointment</Typography>
+          </Link>
+          <Link href={'/login'} passHref>
+            <Button color="inherit">Login</Button>
+          </Link>
+
         </Toolbar>
       </AppBar>
     </Box>

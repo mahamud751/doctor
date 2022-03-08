@@ -2,7 +2,7 @@ import { Button, Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import img from "../../public/images/doctor.png";
-function HomePart5() {
+function HomePartFive() {
   return (
     <Container
       sx={{ my: 20 }}
@@ -34,4 +34,4 @@ function HomePart5() {
   );
 }
 
-export default HomePart5;
+export default HomePartFive;

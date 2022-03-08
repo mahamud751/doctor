@@ -3,6 +3,7 @@ import { Box } from "@mui/system";
 import Image from "next/image";
 import React from "react";
 import img from "../../public/images/chair.png";
+
 function TopBanner() {
   const bannerSize = {
     display: "flex",
